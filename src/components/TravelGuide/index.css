@@ -1,0 +1,23 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #eef4f7;
+}
+.header-container {
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #52bbf0;
+}
+.heading {
+  color: #334155;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.travel-list {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  flex-wrap: wrap;
+}
